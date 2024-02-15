@@ -11,7 +11,8 @@ public class Person {
         this.position = position;
     }
 
-    public Person() {
+    public String toString() {
+        return "Person with position: %s, name:%s, age: %s".formatted()
 
     }
 
